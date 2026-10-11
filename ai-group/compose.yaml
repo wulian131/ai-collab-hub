@@ -1,0 +1,20 @@
+services:
+  chat:
+    build: .
+    environment:
+      AICOLLABHUB_PUBLIC_ORIGIN: ${AICOLLABHUB_PUBLIC_ORIGIN:-}
+    ports:
+      - "127.0.0.1:8787:8787"
+    volumes:
+      - chat-data:/data
+    restart: unless-stopped
+    read_only: true
+    tmpfs:
+      - /tmp:size=16m,mode=1777
+    mem_limit: 256m
+    cpus: 0.5
+    pids_limit: 128
+    security_opt:
+      - no-new-privileges:true
+volumes:
+  chat-data:

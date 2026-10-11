@@ -1,0 +1,4 @@
+# Optional stable HTTPS after a domain points at this server.
+{$AICOLLABHUB_DOMAIN} {
+    reverse_proxy 127.0.0.1:8787
+}

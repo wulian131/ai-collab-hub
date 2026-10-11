@@ -1,0 +1,757 @@
+{
+  "format": 1,
+  "project": "ai-collab-hub",
+  "note": "Source-only manifest; this manifest excludes its own hash. All demonstration content is synthetic.",
+  "files": [
+    {
+      "path": ".gitignore",
+      "sha256": "4fb8fa566e8f63d091b2ec5ba8725927376aa4debcea1514eee749b4eec7c832",
+      "bytes": 440
+    },
+    {
+      "path": "AGENTS.md",
+      "sha256": "acd0d55961af24788eb0ac7741109632003947dfa1f60769e37cd5eebcf59b54",
+      "bytes": 1258
+    },
+    {
+      "path": "DEPLOYMENT.md",
+      "sha256": "80a28652eb66395a94c1d1e8831c6391ec8f7ff718311246a398d6decf474c0d",
+      "bytes": 7298
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "95f4168d690dc9cda1de199ffa7c986e50ba120199d2515fc6fa5109326376a6",
+      "bytes": 1083
+    },
+    {
+      "path": "README.md",
+      "sha256": "b38c4641045a23e9f482ac2efcd9abbc04781a1f46c7d72abe3d08d97469129f",
+      "bytes": 5246
+    },
+    {
+      "path": "SECURITY.md",
+      "sha256": "5c53624f35a9e474879ab24b6436a0f3c5395b6232a577ce012960100d3d220d",
+      "bytes": 3489
+    },
+    {
+      "path": "THIRD_PARTY_NOTICES.md",
+      "sha256": "20032f9bf1a0381c9dbb6c9d2876d56fc8f9a78fd04170fbd7db96b6250b7265",
+      "bytes": 1180
+    },
+    {
+      "path": "VALIDATION.md",
+      "sha256": "f9bec5a750f5acd148ec9291df99bc2479fedd5654326532fa11f9579c946217",
+      "bytes": 4346
+    },
+    {
+      "path": "ai-group-ios/.gitignore",
+      "sha256": "97079e9be6fb11253a21d7b1ac272d40239b073202dbe80ccc99e289a5d8843b",
+      "bytes": 367
+    },
+    {
+      "path": "ai-group-ios/AGENTS.md",
+      "sha256": "acd0d55961af24788eb0ac7741109632003947dfa1f60769e37cd5eebcf59b54",
+      "bytes": 1258
+    },
+    {
+      "path": "ai-group-ios/AIGroup.xcodeproj/project.pbxproj",
+      "sha256": "6f945bcdaa1160c6fdf1f377444da2d155e135c870514f2612230643faf2d8ca",
+      "bytes": 9949
+    },
+    {
+      "path": "ai-group-ios/AIGroup.xcodeproj/xcshareddata/xcschemes/AIGroup.xcscheme",
+      "sha256": "5e152f706fc25d0ef38fed3c289eb65c23a53b265be5e5727227483c39d4f5e4",
+      "bytes": 1941
+    },
+    {
+      "path": "ai-group-ios/AIGroup/Assets.xcassets/AppIcon.appiconset/AppIcon.png",
+      "sha256": "6ae51b5d3eaf0da529543d1ac8fc84d46b5cc4c3c40edbccea04bde9bb9a097f",
+      "bytes": 8025
+    },
+    {
+      "path": "ai-group-ios/AIGroup/Assets.xcassets/AppIcon.appiconset/Contents.json",
+      "sha256": "9239900ca4c37dc860feb154216409f05d906e26f2d79550e1e8e8b8db6324c7",
+      "bytes": 202
+    },
+    {
+      "path": "ai-group-ios/AIGroup/Assets.xcassets/Contents.json",
+      "sha256": "e8e8ef4b27126d62305af321d12a6e64b866ca0b160f0f83efae90111f0ee576",
+      "bytes": 43
+    },
+    {
+      "path": "ai-group-ios/AIGroup/Core/ConnectionHealth.swift",
+      "sha256": "2d24bb08e6416a19797a8d74675f8ca1323a7fb772b195d6cd9338c4cf4242c3",
+      "bytes": 1745
+    },
+    {
+      "path": "ai-group-ios/AIGroup/Core/Devices.swift",
+      "sha256": "a516d26d6db8bde652c17b71ddbb0f0d39340671b81e19632d2bbe925ef1488b",
+      "bytes": 7368
+    },
+    {
+      "path": "ai-group-ios/AIGroup/Core/Endpoint.swift",
+      "sha256": "f575193d7a5790808a80d2acc364aa9f52aab30dbbc98a5a9e6e55c18f045f68",
+      "bytes": 1519
+    },
+    {
+      "path": "ai-group-ios/AIGroup/Core/Mentions.swift",
+      "sha256": "318b8a764854345bbf3d083d937f809f0d023cd8e6cdd08cfe729fde3d0761d2",
+      "bytes": 1368
+    },
+    {
+      "path": "ai-group-ios/AIGroup/Core/Models.swift",
+      "sha256": "f122f473c7cc95b6a0f2b18b3a64537a17fdbc489a7cfa03e910a91ae2b70b84",
+      "bytes": 8455
+    },
+    {
+      "path": "ai-group-ios/AIGroup/Core/MuseEnrollment.swift",
+      "sha256": "69755c62e4e1e5d3619882dbcff72ab6e813721dd9c2f0170d57976cecf8f0ef",
+      "bytes": 10369
+    },
+    {
+      "path": "ai-group-ios/AIGroup/Core/RoomAPI.swift",
+      "sha256": "5345661a9573c1b24c2194d037c3bd4d546e751c99aa73e74f2d97bed4e56146",
+      "bytes": 7446
+    },
+    {
+      "path": "ai-group-ios/AIGroup/Info.plist",
+      "sha256": "628b692422ccecc03e47c1a59ab5d62f29b1283c1c4084dd163fdc186eeba0b3",
+      "bytes": 1192
+    },
+    {
+      "path": "ai-group-ios/AIGroup/Native/AIGroupApp.swift",
+      "sha256": "082ffe1489b0ec81566dd4a361e11535f9fd6bb77f0d5579b2c8f6e4a23ae948",
+      "bytes": 178
+    },
+    {
+      "path": "ai-group-ios/AIGroup/Native/ChatView.swift",
+      "sha256": "adda8e1b397bf4da0a81370e4510ee852c08e9bb450c077d1ecadd6845eb6a2b",
+      "bytes": 10387
+    },
+    {
+      "path": "ai-group-ios/AIGroup/Native/ComposerView.swift",
+      "sha256": "47abf03b87a32a6081246180d02f0afcba75c25720e324756fbcb1cd6d90afec",
+      "bytes": 10376
+    },
+    {
+      "path": "ai-group-ios/AIGroup/Native/Design.swift",
+      "sha256": "380d88f57e8ecc0ef1790d3829a11d7274d483becc6140c006554a9b8b10bfc9",
+      "bytes": 3692
+    },
+    {
+      "path": "ai-group-ios/AIGroup/Native/DevicesModel.swift",
+      "sha256": "a4ca1b51c10b77c06652f0ed44dd80489521b4c65c42b9ecc1a43aab12474cb8",
+      "bytes": 9744
+    },
+    {
+      "path": "ai-group-ios/AIGroup/Native/DevicesView.swift",
+      "sha256": "11b662e70f1017e6d861b7d97b8e3d0c5a9e0187814e588336aa18b38202a74c",
+      "bytes": 29513
+    },
+    {
+      "path": "ai-group-ios/AIGroup/Native/MessageEditor.swift",
+      "sha256": "813a5632cbdc8dda2662923d9d8256e1e00ddb8355e7366af0029d56048adb98",
+      "bytes": 2105
+    },
+    {
+      "path": "ai-group-ios/AIGroup/Native/RoomStore.swift",
+      "sha256": "b0648897d66b93b4ced1b6ecdf90ad2cb2375bd1238065f818eeebd53c24d745",
+      "bytes": 24680
+    },
+    {
+      "path": "ai-group-ios/AIGroup/Native/RootView.swift",
+      "sha256": "f5925e7f1a3a0380862816946d5c8faee7b2ddcb1ba361d2e6100688be6ec4b5",
+      "bytes": 17320
+    },
+    {
+      "path": "ai-group-ios/AIGroup/Native/SecureStorage.swift",
+      "sha256": "7cc128fb095f497861a55e1b5cdcddfb20b797bf27984d6cbde684d60a6b2e7f",
+      "bytes": 3981
+    },
+    {
+      "path": "ai-group-ios/AIGroup/Native/TasksView.swift",
+      "sha256": "fdd735994afb68e0463511a684d161bceb1822f4c1c7873d84680c8f47ea357c",
+      "bytes": 4481
+    },
+    {
+      "path": "ai-group-ios/AIGroup/PrivacyInfo.xcprivacy",
+      "sha256": "46aaac7bef2d46319c34e5b833c87ea78550d907bfb008409edcd38e317bccfb",
+      "bytes": 2139
+    },
+    {
+      "path": "ai-group-ios/Package.swift",
+      "sha256": "3db3858c203f0602d35e5a39ce31570fa9e2ba66d0eb6fc784a9682d69c7c054",
+      "bytes": 353
+    },
+    {
+      "path": "ai-group-ios/README.md",
+      "sha256": "004e2f7f4f475924e7813da1d005f08509045e18787f29e5c641523449eb9cb7",
+      "bytes": 1050
+    },
+    {
+      "path": "ai-group-ios/Tests/CoreTests.swift",
+      "sha256": "a1a5af217a6b310d4f089d302c465099a9e5733f0282f600c960c0d3ff47137d",
+      "bytes": 25590
+    },
+    {
+      "path": "ai-group-ios/scripts/fixture.py",
+      "sha256": "808d5ae5d260bea42c29c73536efa0ca4e3ffa7d37f01186cef5af8f41772f3f",
+      "bytes": 2096
+    },
+    {
+      "path": "ai-group-ios/scripts/generate-project.py",
+      "sha256": "bd3e5789d69a7b161a52e751e41560330b020eab84d3e59370cf5e2ddad11b3b",
+      "bytes": 8170
+    },
+    {
+      "path": "ai-group-ios/scripts/test-core.py",
+      "sha256": "006ecf2de974270ea8d1f650399e0bc299f06868344dba14e0ddbfbb14596dd8",
+      "bytes": 1880
+    },
+    {
+      "path": "ai-group-ios/scripts/test-runner.m",
+      "sha256": "1b7300ddb399d44d31e998df3bcf5098acb951e3caec752422955a31905e9413",
+      "bytes": 483
+    },
+    {
+      "path": "ai-group-ios/scripts/verify-on-mac.sh",
+      "sha256": "9f3a87856d4cc5e48b8b520b5dea665133d955d13ab829d62bf83783a105595a",
+      "bytes": 502
+    },
+    {
+      "path": "ai-group-macos/.gitignore",
+      "sha256": "97079e9be6fb11253a21d7b1ac272d40239b073202dbe80ccc99e289a5d8843b",
+      "bytes": 367
+    },
+    {
+      "path": "ai-group-macos/AGENTS.md",
+      "sha256": "acd0d55961af24788eb0ac7741109632003947dfa1f60769e37cd5eebcf59b54",
+      "bytes": 1258
+    },
+    {
+      "path": "ai-group-macos/AIGroup.xcodeproj/project.pbxproj",
+      "sha256": "008b94e9541ac779657a1e63c5f45160727515f991c0e8f3c00d58a7ad20b16c",
+      "bytes": 10284
+    },
+    {
+      "path": "ai-group-macos/AIGroup.xcodeproj/xcshareddata/xcschemes/AIGroup.xcscheme",
+      "sha256": "5e152f706fc25d0ef38fed3c289eb65c23a53b265be5e5727227483c39d4f5e4",
+      "bytes": 1941
+    },
+    {
+      "path": "ai-group-macos/AIGroup/Assets.xcassets/AppIcon.appiconset/AppIcon.png",
+      "sha256": "6ae51b5d3eaf0da529543d1ac8fc84d46b5cc4c3c40edbccea04bde9bb9a097f",
+      "bytes": 8025
+    },
+    {
+      "path": "ai-group-macos/AIGroup/Assets.xcassets/AppIcon.appiconset/Contents.json",
+      "sha256": "0b6feb5e7ef971c729bfcc31c114f2816bfd64735565352b3277c164315120cc",
+      "bytes": 134
+    },
+    {
+      "path": "ai-group-macos/AIGroup/Assets.xcassets/Contents.json",
+      "sha256": "e8e8ef4b27126d62305af321d12a6e64b866ca0b160f0f83efae90111f0ee576",
+      "bytes": 43
+    },
+    {
+      "path": "ai-group-macos/AIGroup/Core/ConnectionHealth.swift",
+      "sha256": "2d24bb08e6416a19797a8d74675f8ca1323a7fb772b195d6cd9338c4cf4242c3",
+      "bytes": 1745
+    },
+    {
+      "path": "ai-group-macos/AIGroup/Core/Devices.swift",
+      "sha256": "a516d26d6db8bde652c17b71ddbb0f0d39340671b81e19632d2bbe925ef1488b",
+      "bytes": 7368
+    },
+    {
+      "path": "ai-group-macos/AIGroup/Core/Endpoint.swift",
+      "sha256": "f575193d7a5790808a80d2acc364aa9f52aab30dbbc98a5a9e6e55c18f045f68",
+      "bytes": 1519
+    },
+    {
+      "path": "ai-group-macos/AIGroup/Core/Mentions.swift",
+      "sha256": "318b8a764854345bbf3d083d937f809f0d023cd8e6cdd08cfe729fde3d0761d2",
+      "bytes": 1368
+    },
+    {
+      "path": "ai-group-macos/AIGroup/Core/Models.swift",
+      "sha256": "f122f473c7cc95b6a0f2b18b3a64537a17fdbc489a7cfa03e910a91ae2b70b84",
+      "bytes": 8455
+    },
+    {
+      "path": "ai-group-macos/AIGroup/Core/MuseEnrollment.swift",
+      "sha256": "69755c62e4e1e5d3619882dbcff72ab6e813721dd9c2f0170d57976cecf8f0ef",
+      "bytes": 10369
+    },
+    {
+      "path": "ai-group-macos/AIGroup/Core/RoomAPI.swift",
+      "sha256": "5345661a9573c1b24c2194d037c3bd4d546e751c99aa73e74f2d97bed4e56146",
+      "bytes": 7446
+    },
+    {
+      "path": "ai-group-macos/AIGroup/Info.plist",
+      "sha256": "bd16834b3d478897ba644ef97f0d9deeeb2ad848c56517265ab67399d754c08f",
+      "bytes": 1038
+    },
+    {
+      "path": "ai-group-macos/AIGroup/Native/AIGroupApp.swift",
+      "sha256": "482cef33b86f1c19891eb507702dd8ab4368ef364755137b753f0e367d6ff9c5",
+      "bytes": 1103
+    },
+    {
+      "path": "ai-group-macos/AIGroup/Native/ChatView.swift",
+      "sha256": "8f7a2d82f787b3551638ef441f8e6d3997a29a2897438ffb1f7711af60455477",
+      "bytes": 11042
+    },
+    {
+      "path": "ai-group-macos/AIGroup/Native/ComposerView.swift",
+      "sha256": "23cb13119ab0eac3ed2e5caad7b2f49dc43f0f6031b0a20e29cff0dc085d20b7",
+      "bytes": 9777
+    },
+    {
+      "path": "ai-group-macos/AIGroup/Native/Design.swift",
+      "sha256": "8192dfcc9009354775691a0b6faeac3d2e162eab5d964799608b5e5e506637f1",
+      "bytes": 3718
+    },
+    {
+      "path": "ai-group-macos/AIGroup/Native/DesktopSupport.swift",
+      "sha256": "34fbaaff24a58d3a812767e10a898ef7599fb5d44d3cdf0711835ffdb0b33fed",
+      "bytes": 755
+    },
+    {
+      "path": "ai-group-macos/AIGroup/Native/DevicesModel.swift",
+      "sha256": "a4ca1b51c10b77c06652f0ed44dd80489521b4c65c42b9ecc1a43aab12474cb8",
+      "bytes": 9744
+    },
+    {
+      "path": "ai-group-macos/AIGroup/Native/DevicesView.swift",
+      "sha256": "c45350e3c3eb21560c1f1ff65a699c67c67d8acf39a5c327072370d84d0ab0ba",
+      "bytes": 29463
+    },
+    {
+      "path": "ai-group-macos/AIGroup/Native/MessageEditor.swift",
+      "sha256": "84d617b5a77a8acaf3a93aeb2e095d257e10da1a88d7637467f0c860f943845b",
+      "bytes": 2999
+    },
+    {
+      "path": "ai-group-macos/AIGroup/Native/RoomStore.swift",
+      "sha256": "978f8683b70c3b19c333c33626d48dcd3168dd39aac3729e51d446a778d72542",
+      "bytes": 25019
+    },
+    {
+      "path": "ai-group-macos/AIGroup/Native/RootView.swift",
+      "sha256": "d1a3b7e3a078c168b93bca6464e6fb55c49c17aa85b37a3ea47d3f5b9a6314df",
+      "bytes": 17555
+    },
+    {
+      "path": "ai-group-macos/AIGroup/Native/SecureStorage.swift",
+      "sha256": "fa2296dcbe5afe82dc7f9215e7d9b8453baacca50a5af1f3702926f25ad7f445",
+      "bytes": 4692
+    },
+    {
+      "path": "ai-group-macos/AIGroup/Native/TasksView.swift",
+      "sha256": "3343ad48d912018ea30bf908f5d6636a6d808357e8454689c96855ae03d573ec",
+      "bytes": 4474
+    },
+    {
+      "path": "ai-group-macos/AIGroup/PrivacyInfo.xcprivacy",
+      "sha256": "46aaac7bef2d46319c34e5b833c87ea78550d907bfb008409edcd38e317bccfb",
+      "bytes": 2139
+    },
+    {
+      "path": "ai-group-macos/DesktopTests/Smoke.swift",
+      "sha256": "e8a4d8c8ef8c87776f500605f520c0907af631ecee81422c9acf7e02bbfe9aba",
+      "bytes": 5255
+    },
+    {
+      "path": "ai-group-macos/Package.swift",
+      "sha256": "3db3858c203f0602d35e5a39ce31570fa9e2ba66d0eb6fc784a9682d69c7c054",
+      "bytes": 353
+    },
+    {
+      "path": "ai-group-macos/README.md",
+      "sha256": "2cbf1c9b4d4924e7cae838c1797cad74ab1e13bd64af9ca6c5a706c0635eea81",
+      "bytes": 1049
+    },
+    {
+      "path": "ai-group-macos/Tests/CoreTests.swift",
+      "sha256": "a1a5af217a6b310d4f089d302c465099a9e5733f0282f600c960c0d3ff47137d",
+      "bytes": 25590
+    },
+    {
+      "path": "ai-group-macos/scripts/fixture.py",
+      "sha256": "be9b8a2cb1df71f8c7cc477a3beeacfe54db8fc36a3793167ec4b20fd2802b64",
+      "bytes": 128
+    },
+    {
+      "path": "ai-group-macos/scripts/synthetic-fixture.py",
+      "sha256": "340513baf11d38802559a759ea51615169969441dd9e4b86c6649199531d90cd",
+      "bytes": 9139
+    },
+    {
+      "path": "ai-group-macos/scripts/test-core.py",
+      "sha256": "062a7c0bbe8cfcc77fa0ce804ecb0bc6338dc7c2edd16ba5132b101501706e9b",
+      "bytes": 1857
+    },
+    {
+      "path": "ai-group-macos/scripts/test-native.py",
+      "sha256": "a06b2e287b40bf0a2cceddb843be2915ad9c31d3269e7236d8674b5bf925f0ec",
+      "bytes": 1361
+    },
+    {
+      "path": "ai-group-macos/scripts/test-runner.m",
+      "sha256": "1b7300ddb399d44d31e998df3bcf5098acb951e3caec752422955a31905e9413",
+      "bytes": 483
+    },
+    {
+      "path": "ai-group-macos/scripts/verify-on-mac.sh",
+      "sha256": "6b1e84941752758e7e7ca705c21050fd273098163b8216d23f3bb47141b29202",
+      "bytes": 250
+    },
+    {
+      "path": "ai-group/.dockerignore",
+      "sha256": "c5c742a9b8916d966249d47766a0332d86281576659177fcd8d6b1eabf88c260",
+      "bytes": 1365
+    },
+    {
+      "path": "ai-group/.env.example",
+      "sha256": "13a491eb4fcdbf7fff723def321637d36d9f916c6ea9cac0a0ba8f0e16af2291",
+      "bytes": 255
+    },
+    {
+      "path": "ai-group/.gitignore",
+      "sha256": "4fb8fa566e8f63d091b2ec5ba8725927376aa4debcea1514eee749b4eec7c832",
+      "bytes": 440
+    },
+    {
+      "path": "ai-group/AGENTS.md",
+      "sha256": "acd0d55961af24788eb0ac7741109632003947dfa1f60769e37cd5eebcf59b54",
+      "bytes": 1258
+    },
+    {
+      "path": "ai-group/Dockerfile",
+      "sha256": "a234a999d137491f19448563b70641eceb1621eb7ea032e5206de78b06f04a66",
+      "bytes": 380
+    },
+    {
+      "path": "ai-group/LICENSE",
+      "sha256": "95f4168d690dc9cda1de199ffa7c986e50ba120199d2515fc6fa5109326376a6",
+      "bytes": 1083
+    },
+    {
+      "path": "ai-group/MUSE.md",
+      "sha256": "add9130e7d63ed27a97ce6535f5bbfe50f7618af73c9e21272d97e10c3b19e16",
+      "bytes": 469
+    },
+    {
+      "path": "ai-group/README.md",
+      "sha256": "07985e5c0dee83f03ca9fa9125020fb8d340b278449fb3f2fab7599485886617",
+      "bytes": 615
+    },
+    {
+      "path": "ai-group/appearance.css",
+      "sha256": "8e1414de84075c34c8e5fc6653f9a84f464eb62239d6b6456139f9083b9e3bb8",
+      "bytes": 22538
+    },
+    {
+      "path": "ai-group/appearance.js",
+      "sha256": "2816652cb1fbeb0b926e86b16085beb3a65522f8e15396506f95b9fd0cab4ff5",
+      "bytes": 835
+    },
+    {
+      "path": "ai-group/attachments.css",
+      "sha256": "f1a7758a11d6d8b2fd08f5c36cb5339159b7f5867fc3d6c76c74a778c0bf6e23",
+      "bytes": 656
+    },
+    {
+      "path": "ai-group/attachments.js",
+      "sha256": "4123af1792c1c66db4db1dfd22e7cb694b1de712370f0fbe43f8e2f4e3101ce3",
+      "bytes": 6494
+    },
+    {
+      "path": "ai-group/attachments.py",
+      "sha256": "c7d4e71b1356136aafac52fd89b0cad5049ebb444f8bba9fd6e9da424c245490",
+      "bytes": 9304
+    },
+    {
+      "path": "ai-group/client.py",
+      "sha256": "743295b2b7ae8d7133ceebb8fd49512420515f9457e047d4327ef84976770852",
+      "bytes": 10030
+    },
+    {
+      "path": "ai-group/compose.yaml",
+      "sha256": "8c4e1e1f8354d69dfdc79be7891ecf3579dddaa8d32a7747ce3a3214a59d9928",
+      "bytes": 406
+    },
+    {
+      "path": "ai-group/config.example.json",
+      "sha256": "005d53e6557c50604cc406f75d1a81ed2fc8d860f94cbb46366b536af1ad9b4e",
+      "bytes": 220
+    },
+    {
+      "path": "ai-group/deploy/Caddyfile",
+      "sha256": "6f3530069dafa6450e9861e5b648175267259ecba06a9db8789fe88f84a6fcca",
+      "bytes": 121
+    },
+    {
+      "path": "ai-group/deploy/aicollabhub.service",
+      "sha256": "05cf18e11d7034ba40ad87ef9c19c2739c809c50071037ce333882c87d6d3eda",
+      "bytes": 352
+    },
+    {
+      "path": "ai-group/devices.js",
+      "sha256": "a53604eca29158f76441b5a822596ad5ae6766496a4f19033dbeed799230edb2",
+      "bytes": 31282
+    },
+    {
+      "path": "ai-group/devices.py",
+      "sha256": "bbb71f6f7da4a3df7bbcc7e98c15c8de62c0a5071b27354dc242317f1d7974db",
+      "bytes": 26420
+    },
+    {
+      "path": "ai-group/docs/add-device.md",
+      "sha256": "885fb52210a12d3b314f912f5c203f0131faaa0e5803dacedae96dddfaabf449",
+      "bytes": 2366
+    },
+    {
+      "path": "ai-group/docs/architecture.md",
+      "sha256": "b3cfb9f679e91c998f744868bf35a9d1a4c3fc7dda817e8804e0a8e48eb77284",
+      "bytes": 1499
+    },
+    {
+      "path": "ai-group/docs/chatgpt-mcp.md",
+      "sha256": "c2f2025bc2250c6f81d443bdfc598a5d5b23de8487805d7b68f4075c6a7a07f5",
+      "bytes": 2463
+    },
+    {
+      "path": "ai-group/docs/costs.md",
+      "sha256": "bcc759c3836c3007c0f3a445152bb8d41263232bed9db9ac09600f4bf05dc291",
+      "bytes": 1398
+    },
+    {
+      "path": "ai-group/docs/installation.md",
+      "sha256": "ae1e84a255d2713e775180fe79fe86f4b27a9dba6bb42fffaf224974c01de29f",
+      "bytes": 269
+    },
+    {
+      "path": "ai-group/docs/orchestration.md",
+      "sha256": "8fbf297a68f8793490ecea6971968a36dc1c93cdc8df85cf37b993a5d08d4dcf",
+      "bytes": 2470
+    },
+    {
+      "path": "ai-group/docs/release.md",
+      "sha256": "ae964b0a02742c50649d454b4de9ca93c09fd154230d8a0037c6f1a182f730a7",
+      "bytes": 863
+    },
+    {
+      "path": "ai-group/docs/security.md",
+      "sha256": "f1c46b639f1b9b33b0bca04dd205e0e84c4c8f0850d794870aac7c0a9bbe26cb",
+      "bytes": 243
+    },
+    {
+      "path": "ai-group/export_source.py",
+      "sha256": "822eef7001d012fdc81ca94209ef8699933d6e97c02ae46cac268cf81750ac73",
+      "bytes": 2762
+    },
+    {
+      "path": "ai-group/index.html",
+      "sha256": "9e7538b42ef3f58f121094b42bc3d436e98a36f0dc0a0b6096e993f66359229d",
+      "bytes": 59209
+    },
+    {
+      "path": "ai-group/manage.py",
+      "sha256": "63824c446fc13cac51a1751463326f39a0f6330ac381bcdca18f4d3af3653dd8",
+      "bytes": 2350
+    },
+    {
+      "path": "ai-group/mcp_http.py",
+      "sha256": "076ada4fe06ef1b6f197c2fc4e12d46cc6826f4d25421e13afdf3bef3ac032bc",
+      "bytes": 31119
+    },
+    {
+      "path": "ai-group/notifications.py",
+      "sha256": "828db7c61166c6e3f26a62489f21b1701d0800358bafcc08f888dfc11db249fe",
+      "bytes": 5821
+    },
+    {
+      "path": "ai-group/onboarding.py",
+      "sha256": "e18a7a2be05162834fcc42ee7a23c99d70e359348f712a96016ae30993047cea",
+      "bytes": 2287
+    },
+    {
+      "path": "ai-group/owner.example.json",
+      "sha256": "bb6a84dd0e0836c53e4cee6138afa8651e10d2e4c2cd820f58aba1175a9732bd",
+      "bytes": 51
+    },
+    {
+      "path": "ai-group/pair_device.py",
+      "sha256": "130e44d970998d701a77add450f4918602c8fa775b5e5fb2e99e7663001ccfd6",
+      "bytes": 13740
+    },
+    {
+      "path": "ai-group/resource_governor.py",
+      "sha256": "cc1dbdb5cb915500757343f9fd1eaa53a1cdaffbafb1af0f3111203bc77af256",
+      "bytes": 4767
+    },
+    {
+      "path": "ai-group/server.py",
+      "sha256": "c20087717391e6ef7e9b56291272b2a7f312a2613ac4481cb5f31d2e00e3411d",
+      "bytes": 71481
+    },
+    {
+      "path": "ai-group/tests/test_agent_retirement.py",
+      "sha256": "df24d0a19de1bf6d04dbd59aaf0e9cb2c7fecc8a3042b1f1221d184ade1b4581",
+      "bytes": 7682
+    },
+    {
+      "path": "ai-group/tests/test_attachments.py",
+      "sha256": "39c12146d9e0fe94b089465c944e668824018b141bae98aef11c4801e73e53a1",
+      "bytes": 6981
+    },
+    {
+      "path": "ai-group/tests/test_cloud_credential.py",
+      "sha256": "ad3e842d376490c4a76f28acb48ad337fb79bb72dddafe9120a3c0e42ff0af91",
+      "bytes": 10967
+    },
+    {
+      "path": "ai-group/tests/test_collaboration.py",
+      "sha256": "fc6b85ccc37c7f9cca8e11b215bfb24e2572054b347588a2bd58187f17d4b487",
+      "bytes": 7777
+    },
+    {
+      "path": "ai-group/tests/test_conversation_members.py",
+      "sha256": "df6fd96fa8ec1195f51826b4f3711605825491a8ab033563c21713d2ca450860",
+      "bytes": 4089
+    },
+    {
+      "path": "ai-group/tests/test_conversations.py",
+      "sha256": "8e24132901ed5659a9f106f33718fa6cdacfd0d9b0015cdbb40da4152ee250e4",
+      "bytes": 6939
+    },
+    {
+      "path": "ai-group/tests/test_device_worker.py",
+      "sha256": "adcc7a7d802e0acdad60ea15381312ee81e24840ce840210f88d925ca6c89873",
+      "bytes": 1216
+    },
+    {
+      "path": "ai-group/tests/test_devices.py",
+      "sha256": "3b6d2385a4ed769f225952081ccffb24de50543e9b3aee30a64c8ab3491d51c5",
+      "bytes": 8652
+    },
+    {
+      "path": "ai-group/tests/test_execution.py",
+      "sha256": "5665e8173ae59c74c8ef9042293473d9f8c3a247a6a87ee7e2dbf3af45ed2f2e",
+      "bytes": 3585
+    },
+    {
+      "path": "ai-group/tests/test_group.py",
+      "sha256": "d4588c32b354704aae9ffa46c700324cd50de84fbc68d6c7497e0b2a8d6dd280",
+      "bytes": 14091
+    },
+    {
+      "path": "ai-group/tests/test_identity.py",
+      "sha256": "449eb1b7035a62ac0cb4b28de6ccdb558d015d29cc39a0341fa7f7eaf5fcb00a",
+      "bytes": 2306
+    },
+    {
+      "path": "ai-group/tests/test_mcp_http.py",
+      "sha256": "f4d851932d4c3377a8cbf8e9e88724bd6ee64bdef903a6665ebdc321e8da710a",
+      "bytes": 12745
+    },
+    {
+      "path": "ai-group/tests/test_member_controls.py",
+      "sha256": "d08643fc6b21b9643f67ec8423293202a72eee4669c3c9cd8c7ff2ea0ab8acac",
+      "bytes": 7392
+    },
+    {
+      "path": "ai-group/tests/test_message_source.py",
+      "sha256": "205ffc0e8bf1985c778530f5eb031a698876e3ec5f371abe1060041a5f8d9a2f",
+      "bytes": 1645
+    },
+    {
+      "path": "ai-group/tests/test_notifications.py",
+      "sha256": "6ea75bdcba6ea68ce7a8048c2ec8313dee1c53af0dc9ab2ded148e7774c27fcf",
+      "bytes": 9617
+    },
+    {
+      "path": "ai-group/tests/test_onboarding_setup.py",
+      "sha256": "054d4ff8fe2be10c3518d949f9c23e9cdd48f7a124336b531c71f4878bba86ce",
+      "bytes": 3348
+    },
+    {
+      "path": "ai-group/tests/test_parallel.py",
+      "sha256": "83f0823e867179f5b0fddbd619570de39adb9505ce2c59bd3d3dc952fadf19e8",
+      "bytes": 9044
+    },
+    {
+      "path": "ai-group/tests/test_parallel_integration.py",
+      "sha256": "c9af1ebb2a2b89dfbaaf5743e47278e9eed6883c987993d3cfdcd02b27ae2db3",
+      "bytes": 5176
+    },
+    {
+      "path": "ai-group/tests/test_portable.py",
+      "sha256": "d332468dd7db4e5c9c1be72d84170951e42023ebb61e0d7b79a00e34b4355725",
+      "bytes": 6654
+    },
+    {
+      "path": "ai-group/tests/test_receipts.py",
+      "sha256": "710d9f5a6b248deb7786a3a385189d60cc420ae8d2e8fe31ce181712c3d1c8be",
+      "bytes": 2670
+    },
+    {
+      "path": "ai-group/tests/test_recovery.py",
+      "sha256": "ed2998cde667b7dc14917095a85a405cecaccd3f0afb89db799fe5c9f4d2577f",
+      "bytes": 2550
+    },
+    {
+      "path": "ai-group/tests/test_resource_governor.py",
+      "sha256": "e93ea2a4e734029b8a1864cadb836f6f5582fab5c69e427e0d78ec4656e4bd13",
+      "bytes": 1965
+    },
+    {
+      "path": "ai-group/tests/test_safe_defaults.py",
+      "sha256": "ddbb3ea0104fc133e2732d4fa3ef86c50f2e8142a1ed77e8ea3aef9fd5b3365b",
+      "bytes": 5596
+    },
+    {
+      "path": "ai-group/tests/test_unlimited.py",
+      "sha256": "ce0d5648605d02b263361f6134c5f26180959fb8952eaa1d611f9a17a56837e3",
+      "bytes": 3569
+    },
+    {
+      "path": "ai-group/tests/test_worker.py",
+      "sha256": "7b9f49ad787c63817bcfe70994051ec389d1caf023f77e51b8bb162c515d485e",
+      "bytes": 3146
+    },
+    {
+      "path": "ai-group/tests/test_worker_context.py",
+      "sha256": "0db8ee826055315d27df48c9cee377b3450ec8b5643b8d898269b3b522d186c1",
+      "bytes": 3394
+    },
+    {
+      "path": "ai-group/worker.py",
+      "sha256": "30c89e42594a30d3f4c24dc136315c5b1ba173819c9c070232b58ef8c0b4da5e",
+      "bytes": 22651
+    },
+    {
+      "path": "docs/images/synthetic-demo.png",
+      "sha256": "88f2422c689e58b2750b1c4afc20b410361edf4c45cde2499d6e57cee489e47f",
+      "bytes": 198728
+    },
+    {
+      "path": "tools/check_source.py",
+      "sha256": "b26a701b21d40aeda1bcef474b4377f8444a38f92a1d69d845a3641878f6122d",
+      "bytes": 2426
+    },
+    {
+      "path": "tools/demo.py",
+      "sha256": "509e47e4c44fc7c5ae2fd733e6d5435c128dfc24ae06986d29a065bedeaaf43b",
+      "bytes": 3255
+    },
+    {
+      "path": "tools/generate-icons.py",
+      "sha256": "a456222ad62cd9e770c4d6f8d3d86092e3eba04a95e9ea706396b6557831faba",
+      "bytes": 1318
+    }
+  ]
+}

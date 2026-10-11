@@ -1,0 +1,15 @@
+[Unit]
+Description=AI Group Chat
+After=network-online.target
+[Service]
+Type=simple
+WorkingDirectory=%h/ai-collab-hub/ai-group
+ExecStart=/usr/bin/python3 %h/ai-collab-hub/ai-group/manage.py start --data-dir %h/.local/share/aicollabhub
+Restart=on-failure
+RestartSec=5
+UMask=0077
+MemoryMax=256M
+CPUQuota=50%
+TasksMax=128
+[Install]
+WantedBy=default.target
